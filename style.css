@@ -44,19 +44,19 @@ body{
     position: absolute;
     background-size: cover;
     overflow: hidden;
-   bottom: 30vh;
-    left: 20vw;
+  top: 35vw;
+    left: 200px;
     animation: shake linear .5s infinite;
 }
 .wheel1 img{
-    height: 7.5vh;
+    height: 65px;
     left: 41px;
     top: 35px;
      position: absolute;
    animation: wheelrotate linear .11s infinite;
 }
 .wheel2 img{
-    height: 8.2vh;
+    height: 60px;
     left: 208px;
     top: 35px;
     position: absolute;
@@ -87,4 +87,36 @@ body{
     100%{
         transform: translateY(-5px);
     }
+}
+@media screen and (max-width:1000px){
+    .sky{
+        height: 50vh;
+        width: 100%;
+    }
+    .trees img{
+        height: 55vh;
+    width: 100%;
+
+    }
+    .car{
+        height: 60px;
+    width: 200px;
+        top: 50vh;
+        left: 0;
+    }
+    .track img{
+        top: 50vh;
+        height: 50vh;
+    }
+    .wheel1 img{
+        height: 42px;
+    left: 22px;
+    top: 22px;
+    }
+    .wheel2 img{
+        height: 41px;
+    left: 130px;
+    top: 22px;
+    }
+    
 }
