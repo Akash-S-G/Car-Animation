@@ -49,15 +49,15 @@ body{
     animation: shake linear .5s infinite;
 }
 .wheel1 img{
-    height: 65px;
+    height: 62px;
     left: 41px;
     top: 35px;
      position: absolute;
    animation: wheelrotate linear .11s infinite;
 }
 .wheel2 img{
-    height: 60px;
-    left: 208px;
+    height: 67px;
+    left: 206px;
     top: 35px;
     position: absolute;
     animation: wheelrotate linear .10s infinite;
