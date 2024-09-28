@@ -5,4 +5,8 @@ music.volume=0.1;
 
 }, 1000);
 let musicp=new Audio('Music.mp3')
-musicp.play();
+musicp.loop();
+window.onload = function() {
+    musicp.play();
+};
+
