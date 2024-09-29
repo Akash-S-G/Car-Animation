@@ -195,5 +195,8 @@ body{
     left: 130px;
     top: 22px;
     }
+    #Tree1, #Tree2,#Tree3,#Tree5,#Tree4,#Tree6,#Tree7,#Tree8,#Tree9,#Tree10,#Tree11{
+        top: 30vh;
+    }
     
 }
