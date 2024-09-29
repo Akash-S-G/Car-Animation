@@ -27,6 +27,70 @@ body{
     overflow: hidden;
     top: -3vw;
 }
+
+
+
+
+#Tree1{
+    top: 24vw;
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    animation: Trees linear 1s infinite;
+}
+#Tree2{
+    left: 25vw;
+    top: 24vw;
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    animation: Trees linear 1s infinite;
+}
+#Tree3{
+    left: 55vw;
+    top: 24vw;
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    animation: Trees linear 1s infinite;
+}
+#Tree4{
+    left: 85vw;
+    top: 24vw;
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    animation: Trees linear 1s infinite;
+}
+#Tree5,#Tree6,#Tree7,#Tree8,#Tree9,#Tree10,#Tree11{
+    
+    top: 24vw;
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    animation: Trees linear 1s infinite;
+}
+#Tree5{
+    left: 120vw;
+}
+#Tree6{
+    left: 150vw;
+}
+#Tree7{
+    left: 180vw;
+}
+#Tree8{
+    left: 210vw;
+}
+#Tree9{
+    left: 240vw;
+}
+#Tree10{
+    left: 270vw;
+}
+#Tree11{
+    left: 300vw;
+}
 .track img{
     height: 20vw;
     width: 800vw;
@@ -34,8 +98,9 @@ body{
     background-repeat: no-repeat;
     overflow: hidden;
     top: 37vw;
-    animation: road linear 5s infinite;
+    animation: road linear 1s infinite;
 }
+
 .car{
     height: 93px;
     width: 332px;
@@ -75,7 +140,19 @@ body{
         transform: translateX(-500vw);
     }
 }
+@keyframes Trees {
+    0% {
+        transform: translateX(0); /* Start position */
+    }
+    50% {
+        transform: translateX(-50vw); /* Move right at midpoint */
+    }
+    100% {
+        transform: translateX(-100vw); /* Return to start position */
+    }
 
+    
+}
 @keyframes shake{
     
     0%{
